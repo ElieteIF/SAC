@@ -10,20 +10,25 @@ O SAC simula um sistema de alarme colaborativo para residencias. Após o desenvo
 - arrombamento ou furto domiciliar
 - pessoas idosas passando mal no domicilio 
 
-3 - Atribuições:
+3 - Pré-requisitos:
 
-- cadastra novo usuario
-- realiza login
-- edita conta
-- exclui conta
-- cadastra casa
-- abre chamado
-- exclui chamado
-- edita chamado 
+- Gerenciar usuario
+  novo cadastro
+  login
+  editar conta
+  
+- Gerenciar casa
+  cadastro endereço
+  editar endereço 
 
+- Gerenciar chamado
+   abrir chamado
+   cancelar chamado
+   
 4 - Não Atribuições:
 
 - Não realiza cadastro sem um endereço de email
 - Não direciona o chamado diretamente a delegacia, hospital ou corpo de bombeiros.
 - Não realiza mais de um cadastro por casa
+- Não edita o chamado
 
