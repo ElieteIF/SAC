@@ -2,7 +2,7 @@
 
 1 - Descricão do projeto:
 
-O SAC simula um sistema de alarme colaborativo para residencias. Após o desenvolvimento dessse projeto, o simulador será responsável por controlar um sistema de alarme, capaz de cadastrar e abrir chamados de emergências, que serão compartilhados por todos da vizinhança. Este sistema de alarme é uma ferramenta criada para promover uma maior segurança a todos os moradores que estaram conectados nela, ele também surge como sendo, uma "solução" para alguns problemas que ocorre nas residencias, quando os donos estão ausentes.
+O SAC simula um sistema de alarme colaborativo para residencias. Após o desenvolvimento dessse projeto, o simulador será responsável por controlar um sistema de alarme, capaz de cadastrar e abrir chamados de emergências, que serão compartilhados por todos da vizinhança. Este sistema de alarme é uma ferramenta criada para promover uma maior segurança a todos os moradores que estarão conectados nela, ele também surge como sendo, uma "solução" para alguns problemas que ocorre nas residencias, quando os donos estão ausentes.
 
 2 - Principais problemas "solucionados":
 
