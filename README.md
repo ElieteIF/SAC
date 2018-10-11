@@ -1,5 +1,6 @@
 # SAC
-O SAC é um sistema de alarme colaborativo, que será automatizado para residencias. 
+O SAC é um projeto que simula um sistema de alarme colaborativo para residencias. 
+
 Algumas atribuições:
 - cadastra novo usuario
 - realiza login
