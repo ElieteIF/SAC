@@ -21,8 +21,8 @@ O SAC simula um sistema de alarme colaborativo para residencias. Após o desenvo
   cadastro endereço
   editar endereço 
 
-- Gerenciar chamado
-   abrir chamado
+- Abrir chamado
+   notificação de chamado
    cancelar chamado
    
 4 - Não Atribuições:
