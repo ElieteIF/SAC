@@ -4,18 +4,18 @@
 require_once("../../persistencia/ClienteDAO.php");
 require_once("../dominio/Cliente.php");
 
-$banco = new ClienteDAO();
-$cliente = new Cliente();
+$sistemaAlarme = new pessoa1();
+$pessoa = new pessoa();
 
-$cliente->pegarDados();
-$cliente->validarDados();
+$pessoa->pegarDados();
+$pesssoa->validarDados();
 
 
 
-$banco->inserir($cliente);
+$sistemaAlarme->inserir($pessoa);
 
-foreach ($banco->selecionarTodos() as $registro) {
-	echo "Codigo : ". $registro["cod_cliente"] . " | Nome : ". $registro["nome"] ." | CPF : ". $registro["cpf"] ." <br /> ";
+foreach ($sistemaAlarme->selecionarTodos() as $registro) {
+	echo "Codigo : ". $registro["cod_pessoa"] . " | Nome : ". $registro["nome"] ." | CPF : ". $registro["cpf"] ."| Contato : ". $registro["contato"]|Email : ". $registro["email"] ." |."<br /> ";
 };
 
 
