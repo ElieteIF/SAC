@@ -10,7 +10,7 @@ email varChar(150),
 primary key (cod_pessoa)
 );
 
-insert into pessoa (nome,cpf, contato, email,)
+insert into pessoa (nome, cpf, contato, email,)
 values ('Maria',71000000000,30000021,'maria@gmail.com'),
 ('Edward',72000000000,30000022,'edward@gmail.com'),
 ('Elizete',73000000000,30000023,'elizete@gmail.com'),
