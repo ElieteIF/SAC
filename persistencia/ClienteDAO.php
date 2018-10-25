@@ -1,16 +1,16 @@
 <?php
 
 require_once("DBMySQL.php");
-require_once("../../negocio/dominio/Cliente.php");
+require_once("../../negocio/dominio/pessoa.php");
 
-class ClienteDAO extends DBMySQL {
+class pessoa1 extends DBMySQL {
 
-	public function inserir($cliente){	
-		$this->query("INSERT INTO clientes (nome,cpf) VALUES ('".$cliente->nome."','".$cliente->cpf."');" );
+	public function inserir($pessoa){	
+		$this->query("INSERT INTO pessoa (nome,cpf, contato, email) VALUES ('".$pessoa->nome."','".$pessoa->cpf."','".$pessoa->contato."','".$pessoa->email."');" );
 	}
 	
 	public function selecionarTodos(){
-		return $this->select("SELECT cod_cliente, nome, cpf FROM clientes;");
+		return $this->select("SELECT cod_pessoa, nome, cpf, contato, email FROM pessoa;");
 	}
 
 }
