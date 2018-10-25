@@ -1,6 +1,6 @@
 # SAC
 
-**2 - Objetivo do repositório:**
+**Objetivo do repositório:**
 Este repositório será utilizado com intuito de provocar discussões sobre os conceitos e práticas de Autoria WEB, durante as atividades desempenhadas, assuntos sobre WEB Design serão desafiados. Para isso, a proposta é que cada encontro semanal possa ser representado como uma iteração sobre o problema, para assim termos o nosso incremento na solução proposta (ver Modelo de Desenvolvimento de Software Interativo e Incremental). Em ambos os momentos, as atividades executadas estarão encaixadas em alguma das seguintes fases de desenvolvimento: análise da necessidades do cliente, definição de layout, desenvolvimento e programação de front-end, inclusão de conteúdo e publicação.
 
 **1 - Descricão do projeto:**
