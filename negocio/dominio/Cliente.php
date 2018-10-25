@@ -1,7 +1,7 @@
 
 <?php 
 
-class Cliente {
+class pessoa {
 
 	public $codigo;
 	public $nome;
