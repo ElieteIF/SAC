@@ -1,20 +1,22 @@
-create database web_bank;
-use web_bank;
+create database sac;
+use sac;
 
-create table clientes (
-cod_cliente int auto_increment,
-nome varchar(255),
+create table pesssoa (
+cod_pessoa int auto_increment,
+nome varchar(150),
 cpf char(11),
-primary key (cod_cliente)
+contato char(20),
+email varChar(150),
+primary key (cod_pessoa)
 );
 
-insert into clientes (nome,cpf)
-values ('fabio',11111111111),
-('Joao', 22222222222),
-('Luana',33333333333),
-('Fê',44444444444),
-('Ailton',55555555555);
+insert into pessoa (nome,cpf, contato, email,)
+values ('Maria',71000000000,30000021,'maria@gmail.com'),
+('Edward',72000000000,30000022,'edward@gmail.com'),
+('Elizete',73000000000,30000023,'elizete@gmail.com'),
+('Ellen',74000000000,30000024,'ellen@gmail.com'),
+('Eveline',75000000000,30000025,'eveline@gmail.com');
 
-select * from clientes;
+select * from pessoa;
 
-drop database web_bank;
+drop database sac;
