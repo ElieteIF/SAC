@@ -15,19 +15,19 @@ O SAC simula um sistema de alarme colaborativo para residencias. Após o desenvo
 
 **4 - Pré-requisitos:**
 
-- Gerencia pessoa
-- Gerencia casa
-- Realiza loin
-- Vincula casa á pessoa
-- Seleciona chamado
-- Cria novo chamado	
-- Abre chamado 	
-- Fecha chamado 	
-- Verifica status	
-- Arquiva data e hora	
-- Cadastra amigos	
-- Aba de ajuda	
-- Recupera senha	
+- Gerenciar pessoa
+- Gerenciar casa
+- Realizar login
+- Vincular casa á pessoa
+- Selecionar chamado
+- Criar novo chamado	
+- Abrir chamado 	
+- Fechar chamado 	
+- Verificar status	
+- Arquivar data e hora	
+- Cadastrar amigos	
+- Exibir aba de ajuda	
+- Recuperar senha	
    
 **5 - Não Atribuições:**
 
